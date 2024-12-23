@@ -42,6 +42,17 @@
     el.addEventListener('scroll', listener)
   }
 
+
+  function toggleDropdown(dropdownId) {
+    var dropdown = document.getElementById(dropdownId);
+    if (dropdown.style.display === "none" || dropdown.style.display === "") {
+      dropdown.style.display = "block";
+    } else {
+      dropdown.style.display = "none";
+    }
+  }
+  
+  
   /**
    * Navbar links active state on scroll
    */

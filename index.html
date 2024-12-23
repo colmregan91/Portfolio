@@ -8,7 +8,7 @@
     <title>Colm Regan Portfolio</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
-    
+
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
@@ -48,48 +48,80 @@
             <h1 class="text-light"><a href="index.html">Colm Regan</a></h1>
             <div class="social-links mt-3 text-center">
 
-                <a href="https://www.instagram.com/topboxstudios/" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="https://www.instagram.com/topboxstudios/" class="instagram"><i
+                        class="bx bxl-instagram"></i></a>
                 <a href="https://www.linkedin.com/in/colmregan/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
             </div>
         </div>
 
         <nav id="navbar" class="nav-menu navbar">
             <ul>
-              
+
                 <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a>
+
+
+                <li>
+                    <!-- Dropdown trigger -->
+                    <a href="javascript:void(0);" class="nav-link dropdown-toggle" onclick="toggleDropdown(this)">
+                        <span>Bloktopia</span>
+                    </a>
+
+                    <!-- Dropdown content -->
+                    <ul class="dropdown-content" style="list-style: none; padding-left: 15px; ">
+                        <li><a href="#bloktopiaarcade" class="nav-link scrollto">Bloktopia Arcade</a></li>
+                        <li><a href="#blokbuster" class="nav-link scrollto">BlokBuster</a></li>
+                        <li><a href="#tokens" class="nav-link scrollto">Token Tickers</a></li>
+                    </ul>
                 </li>
-                <li><a href="#bloktopiaarcade" class="nav-link scrollto"> <span>Bloktopia Arcade</span></a>
+
+                <li>
+                    <!-- Dropdown trigger -->
+                    <a href="javascript:void(0);" class="nav-link dropdown-toggle" onclick="toggleDropdown(this)">
+                        <span>TopBox Studio</span>
+                    </a>
+
+                    <!-- Dropdown content -->
+                    <ul class="dropdown-content" style="list-style: none; padding-left: 15px;">
+                        <li><a href="#bionicblitz" class="nav-link scrollto">Bionic Blitz</a></li>
+                        <li><a href="#candf" class="nav-link scrollto">The Chicken and The Fox</a></li>
+                    </ul>
                 </li>
-                <li><a href="#bionicblitz" class="nav-link scrollto"> <span>Bionic Blitz</span></a>
-                </li>
-                <li><a href="#candf" class="nav-link scrollto"> <span>The Chicken and The Fox</span></a>
-                </li>
-                <li><a href="#tort" class="nav-link scrollto"><span>Trick or Treat</span></a>
-                </li>
-                <li><a href="#streetfighter" class="nav-link scrollto"> <span>3D Street Fighter</span></a>
-                </li>
-                <li><a href="#cops" class="nav-link scrollto"> <span>Cops</span></a>
-                </li>
-<!--   // NEW CONTENT WHEN NEEDED             <li><a href="#servicesss" class="nav-link scrollto"> <span>3D Street Fighter</span></a></li>-->
+
+                <li>
+                    <!-- Dropdown trigger -->
+                    <a href="javascript:void(0);" class="nav-link dropdown-toggle" onclick="toggleDropdown(this)">
+                        <span>Solo Projects & WIP</span>
+                    </a>
+
+                    <!-- Dropdown content -->
+                    <ul class="dropdown-content" style="list-style: none; padding-left: 15px;">
+                        <!--    <li><a href="#macrotracker" class="nav-link scrollto">Macro Tracker</a></li>-->
+                           <li><a href="#tort" class="nav-link scrollto">Trick or Treat</a></li>
+                           <li><a href="#streetfighter" class="nav-link scrollto">3D Street Fighter</a></li>
+                       </ul>
+                   </li>
+   
+   
+                   <!--   // NEW CONTENT WHEN NEEDED             <li><a href="#servicesss" class="nav-link scrollto"> <span>3D Street Fighter</span></a></li>-->
                 <!--          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>-->
             </ul>
 
-<!--            <ul>-->
-<!--                <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a>-->
-<!--                </li>-->
-<!--                <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Bloktopia Arcade</span></a>-->
-<!--                </li>-->
-<!--                <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Bionic Blitz</span></a>-->
-<!--                </li>-->
-<!--                <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>The Chicken and The Fox</span></a>-->
-<!--                </li>-->
-<!--                <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Trick or Treat</span></a></li>-->
-<!--                <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>3D Street Fighter</span></a></li>-->
-<!--                &lt;!&ndash;          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>&ndash;&gt;-->
-<!--            </ul>-->
-<!--            -->
-            
-            
+            <!--            <ul>-->
+            <!--                <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a>-->
+            <!--                </li>-->
+            <!--                <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Bloktopia Arcade</span></a>-->
+            <!--                </li>-->
+            <!--                <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Bionic Blitz</span></a>-->
+            <!--                </li>-->
+            <!--                <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>The Chicken and The Fox</span></a>-->
+            <!--                </li>-->
+            <!--                <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Trick or Treat</span></a></li>-->
+            <!--                <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>3D Street Fighter</span></a></li>-->
+            <!--                &lt;!&ndash;          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>&ndash;&gt;-->
+            <!--            </ul>-->
+            <!--            -->
+
+
         </nav><!-- .nav-menu -->
     </div>
 </header><!-- End Header -->
@@ -101,11 +133,20 @@
         <p>My <span class="typed" data-typed-items="Portfolio, Projects, Career"></span></p>
 
     </div>
-    
+
 </section><!-- End Hero -->
 
 <main id="main">
 
+
+    <section class="portfolio section-bg">
+        <div class="container">
+
+            <div class="section-title">
+                <h1>Bloktopia</h1>
+            </div>
+        </div>
+    </section>
 
     <!-- ======= Portfolio Section ======= -->
     <section id="bloktopiaarcade" class="portfolio section-bg">
@@ -115,7 +156,8 @@
                 <h2>Bloktopia Arcade</h2>
                 <p>During my time at Bloktopia, i was responsible for a number of different features, particularly,
                     those relating to networking and bug fixes with Photon Fusion.</p>
-                <p> My biggest task during this period was the development of a crypto arcade featuring a collection of both purchased and
+                <p> My biggest task during this period was the development of a crypto arcade featuring a collection of
+                    both purchased and
                     original hypercasual games. There were 3 games in total : Bull Run, Crypto Rush and Crypto
                     Connect.</p>
             </div>
@@ -133,38 +175,37 @@
                 <p> The original game was called Downhill Ride and can be viewed <a
                         href="https://www.youtube.com/watch?v=KZOni77t1iY.">here</a></p>
 
-                <p> The video on the left shows the final game being played with my personal Bloktopia avatar, from the perspective of the player.  The video on the right shows the networking of the players score for other people in the arcade.</p>
+                <p> The video below shows the final game being played from the
+                    perspective of both the player and others users in the arcade, showing the desired networking experience..</p>
                 <br>
                 <video controls width="48%">
-                    <source src="BullRunVid.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <video controls width="48%">
-                    <source src="bRunNetworked.mp4" type="video/mp4">
+                    <source src="bullrun.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
             </div>
             <br>
             <div>
                 <h3>Crypto Rush</h3>
-                <p>Crypto Rush is a completely original game, in which i had full freedom of choice over the design, gameplay and development.  </p>
-                <p> It is a time based game where the user must sort different coins by placing them in the correct wallet.
+                <p>Crypto Rush is a completely original game, in which i had full freedom of choice over the design,
+                    gameplay and development. </p>
+                <p> It is a time based game where the user must sort different coins by placing them in the correct
+                    wallet.
                     The 2 coins are Ethereum, which appear on the right and BitCoin which appears on the left.
-                    The player is presented with a randomly ordered list containing both coins, and they must either press left if
-                    it is BitCoin and right if it is Ethereum.  The goal is to sort as many coins as possible before the timer runs out.</p>
-                
-                <p>I created networking for the game where by other users can enter the proximity of 
-                an ongoing game and see the actual coins being sorted. This was done using minimal networking traffic, leveraging our custom networking architecture to incorporate in game updates.
-                   </p>
+                    The player is presented with a randomly ordered list containing both coins, and they must either
+                    press left if
+                    it is BitCoin and right if it is Ethereum. The goal is to sort as many coins as possible before the
+                    timer runs out.</p>
 
-                <p>The video on the left shows the game being played from the perspective of someone playing the game while the video on the right shows the networking of the gameplay and score. </p>
+                <p>I created networking for the game where by other users can enter the proximity of
+                    an ongoing game and see the actual coins being sorted. This was done using minimal networking
+                    traffic, leveraging our custom networking architecture to incorporate in game updates.
+                </p>
+
+                <p>The video shows the game being played from both the perspective of someone playing the game
+                   aw well as someone observing the game, displaying the networking of the players score and progress. </p>
                 <br>
                 <video controls width="48%">
-                    <source src="cryptoRushVid.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <video controls width="48%">
-                    <source src="cRushNetworked.mp4" type="video/mp4">
+                    <source src="cryptoRush.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
                 <div>
@@ -174,16 +215,23 @@
             <br>
             <div>
                 <h3>Crypto Connect (Hex Game)</h3>
-                <p>Crypto Connect or Hex, is a UI based game where user must use their mouse to connect tiles.   Like Bull Run,  It was procured from a game bundle on the Unity Asset store.  However the final version required
-                    much less dissection from the original game.   The main difficulty with this game bundle was to condense all gameplay into a single scene and then import it into Bloktopia and making it playable from a dedicated non networked scene.   I then added custom functionality for saving and loading a game before, finally, giving it a Bloktopia themed art design.</p>
-                <p> The more tiles a user can connect, the higher their score goes.  Tiles are replaced with higher value tiles after they have been connected, this makes them harder to connect with other tiles but yield more score.  
+                <p>Crypto Connect or Hex, is a UI based game where user must use their mouse to connect tiles. Like Bull
+                    Run, It was procured from a game bundle on the Unity Asset store. However the final version required
+                    much less dissection from the original game. The main difficulty with this game bundle was to
+                    condense all gameplay into a single scene and then import it into Bloktopia and making it playable
+                    from a dedicated non networked scene. I then added custom functionality for saving and loading a
+                    game before, finally, giving it a Bloktopia themed art design.</p>
+                <p> The more tiles a user can connect, the higher their score goes. Tiles are replaced with higher value
+                    tiles after they have been connected, this makes them harder to connect with other tiles but yield
+                    more score.
                     The game will end when ther are no available tiles left on the screen to connect.</p>
 
 
                 <p> The original game was called Hex and can be viewed <a
                         href="https://www.youtube.com/watch?v=uTRqIsjj02M">here</a></p>
 
-                <p>The below video shows me entering the hex scene with my Bloktopia avatar.  It also shows the save and load feature, where i quit the ongoing game and return back to it moments later. </p>
+                <p>The below video shows me entering the hex scene with my Bloktopia avatar. It also shows the save and
+                    load feature, where i quit the ongoing game and return back to it moments later. </p>
                 <br>
                 <video controls width="50%">
                     <source src="HexVid.mp4" type="video/mp4">
@@ -192,6 +240,82 @@
                 <div>
 
                 </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="blokbuster" class="portfolio section-bg">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>BlokBuster</h2>
+                <p>BlokBuster is a multiplayer trivia game where players from all over the world can join in, with up to
+                    800 participants playing at any time. In the game, players answer questions by rushing to designated
+                    zones corresponding to multiple-choice answers within tight time limits.
+                    If you go to the wrong zone, you are eliminated.  The game continues until no players are left or until all rounds are played.  If you’re still in the game at the end of the final
+                    round, you’re a winner!
+                </p>
+                <br>
+                <p>The game leverages a hybrid architecture that integrates Photon Fusion and Azure Hubs. Photon Fusion
+                    handled the networking of normal user based interactions as well as sending round and game data from
+                    a host machine (master client) to all players in the room.
+                    On top of that, Azure Hubs keeps everyone in a group and manages player states. When a player
+                    updates their state locally, that update goes to the Azure Hub.
+                    Then, the host reads the data and shares it with everyone in the room, so each player’s state is
+                    properly synchronized.
+                </p>
+                <br>
+                <p>The videos below shows the game being played by a group of Bloktopia users. 
+                </p>
+                <br>
+                <video controls width="49%">
+                    <source src="bbuster.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
+
+    <section id="tokens" class="portfolio section-bg">
+        <div class="container">
+
+            <div class="section-title">
+                <h2>Token Tickers</h2>
+                <p>
+                    The token Ticker system was one of the most fundamental aspects of the Bloktopia metaverse. It
+                    allows users to view real-time up to date token price updates for a variety of cryptocurrencies,
+                    directly within the metaverse environment.
+                    The system enabled users to filter and sort coins based on daily gainers and losers.
+                </p>
+                <br>
+                <p> It utilized CoinMarketCap and DexTools APIs to provide accurate and current data.
+                </p>
+                <br>
+                <p> The below video shows all the Ticker types that this system incorporates.  There are Single display tickers for individual coins, Horizontally scrolling tickers for a list of individual coins, top 10 coins made accessible through Coin Market Cap API as well as 
+                    an interactable display where you can view daily winners/losers for a coin of your choosing.  
+                </p>
+                <br>
+                <video controls width="49%">
+                    <source src="tickers.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="portfolio section-bg">
+        <div class="container">
+
+            <div class="section-title">
+                <h1>TopBox Studio</h1>
+                <br>
+                <p>In the summer of 2016, i decided to quit my job and finally begin my journey in game development.</p>
+                <br>
+                <p>I soon founded Topbox Studio Ltd and started Started working as a full time independent Game
+                    Developer.</p>
+
             </div>
         </div>
     </section>
@@ -214,7 +338,8 @@
                     own strengths and weaknesses, and their
                     own unique ways of attacking OddBot.</p>
                 <br>
-                <p>The videos below shows the games trailer as well as a short clip of me playing the 4th level of the game.  
+                <p>The videos below shows the games trailer as well as a short clip of me playing the 4th level of the
+                    game.
                 </p>
                 <br>
                 <p>Download the game from Steam or view the trailer by clicking <a
@@ -232,7 +357,7 @@
                     <source src="bbGameplay.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
-        
+
             </div>
         </div>
     </section>
@@ -242,28 +367,41 @@
 
             <div class="section-title">
                 <h2>The Chicken and The Fox</h2>
-                <p>The Chicken and the Fox is an engaging and educational children's book. It is an interactive journey
-                    that combines fun with learning, offering a delightful experience for young readers.</p>
+                <p>The Chicken and the Fox is the first of a series of childrens books. It is a joint collaboration
+                    between TopBox Studio and promising children's book author, Randol Taylor. </p>
                 <br>
-                <p>The Chicken and the Fox is a multi-lingual children's book that seamlessly weaves an informative
-                    narrative with an engaging story.
+                <p>It is a multi-lingual children's book that weaves an informative
+                    narrative with an engaging story through an interactive journey
+                    that combines fun with learning, offering a delightful experience for young readers.</p>
+                <p>
+                    <br>
                     There are many interactive features, where, young readers not only enjoy a captivating tale but also
                     actively participate in the learning experience.</p>
                 <br>
-                <p>With an engaging story, informative content, and interactive elements, it creates an enjoyable and
-                    educational reading experience for young minds.</p>
+
+                <p> This app is seperated into 2 different projects.  An uploader project was created for storing assets and creating the actual content for each book. This project ensures that the art and content are kept separate from the main project, facilitating
+                    easier content management and enabling the production of multiple books using the same system.
+                </p>
                 <br>
-                <p>Below is a small snippet showcasing the main features from the first page of the book and page 4 of the book.  There are 25 pages in total each with their own set of facts and interactables.
-                    The target platform for the project is Android and I phone, this video was recorded in the Unity Editor.</p>
+                <p>  It contains custom editor code that generates asset bundles from
+                    scene layouts, text elements and audio data.  These assets are stored in the persistent data folder where the main project reads them from.  Before the book is released, these assets will be placed on Azure Blob Storage.
+                    
+      
+                </p>
+                <br>
+                <p>
+                    The main project is designed to manage and present each book in Unity. It processes a list of asset
+                    bundles for the specific book the user wants to read.
+                    <br>
+                   
+                <br>
+                <p>Below is a small snippet showcasing the main features of the book. There are 25 pages in total each with their own set of facts and interactables.
+                    The target platform for the project is Android and I phone.</p>
                 <br>
                 <video controls width="49%">
                     <source src="candfVid.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
-                <video controls width="49%">
-                    <source src="candfVid2.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
                 <div>
 
                 </div>
@@ -271,77 +409,99 @@
         </div>
     </section>
 
-    <section id="cops" class="portfolio section-bg">
+    <section class="portfolio section-bg">
         <div class="container">
 
             <div class="section-title">
-                <h2>Cops</h2>
-                <p></p>
-                <br>
-                <p></p>
-                <br>
-                <p></p>
-                <br>
-                <video controls width="60%">
-                    <source src="hacnNew.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <div>
-
-                </div>
+                <h1>Solo Projects</h1>
             </div>
         </div>
     </section>
 
-    <section id="tort" class="portfolio section-bg">
-        <div class="container">
-
-            <div class="section-title">
-                <h2>Trick or Treat (work in progress)</h2>
-                <p>Trick or Treat is the first of a series of festivities themed local/online multiplayer shooter games.
-                    The setting is Halloween night and based around the concept of fireworks and eggs over guns and grenades.
-                    The goal is to destroy the other teams base, by throwing eggs at it.</p>
-                <br>
-                <p>This game contains a fully functioning 3D Ragdoll system and a complex pooling system.
-                    The architecture follows a state machine based interface which implements game state as well as Player and Ragdoll states.</p>
-                <br>
-                <p>Here is a clip of the local multiplayer shooting with the ragdoll physics in effect.  The ability to throw eggs will be added soon!</p>
-                <br>
-                <video controls width="60%">
-                    <source src="instaTorT.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    
-      <section id="streetfighter" class="portfolio section-bg">
-        <div class="container">
-
-            <div class="section-title">
-                <h2>3D Street Figther (work in progress)</h2>
-                <p>This is a project I am working on solo, which I began during the Covid-19 pandemic.  It is inspired by my favorite game as a child : Street Fighter.</p>
-                <br>
-                <p>This game uses enemy and character scripts which both inherit from an interface named IEntity. The IEntity interface must implement 3 other interfaces named IAnimate, IControllable and IAttack.</p>
-                <br>
-                <p>The architectural choice to use an interface of interfaces makes it extremely easy to implement new features and develop enemy AI and player characters alongside each other with a very similar structure. This allows for easy bug fixing and scalability.</p>
-                <br>
-                <video controls width="80%">
-                    <source src="hacnNew.mp4" type="video/mp4">
-                    Your browser does not support the video tag.
-                </video>
-                <div>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    
-</main>
-<!-- ======= Footer ======= -->
+    <!--   <section id="macrotracker" class="portfolio section-bg">
+           <div class="container">
+   
+               <div class="section-title">
+                   <h2>Macro Tracker</h2>
+                   <p>Macro Tracker allows users to scan food barcodes by utilizing the Open Food Facts free API. It
+                       displays detailed nutritional information for each food item and lets users store the items in a
+                       local database.
+                   </p>
+                   <br>
+                   <p> Users can combine multiple foods to construct meals and see the total macronutrient breakdown of the
+                       entire meal. </p>
+                   <br>
+                   <p> Additionally, the app offers features for saving and editing meals, providing a customized solution,
+                       even though similar apps exist, this one is tailored to my specific preferences.</p>
+                   <br>
+                   <video controls width="60%">
+                       <source src="hacnNew.mp4" type="video/mp4">
+                       Your browser does not support the video tag.
+                   </video>
+                   <div>
+   
+                   </div>
+               </div>
+           </div>
+       </section>
+   -->
+   
+       <section id="tort" class="portfolio section-bg">
+           <div class="container">
+   
+               <div class="section-title">
+                   <h2>Trick or Treat (work in progress)</h2>
+                   <p>Trick or Treat is the first of a series of festivities themed local/online multiplayer shooter games.
+                       The setting is Halloween night and based around the concept of fireworks and eggs over guns and
+                       grenades.
+                       The goal is to destroy the other teams base, by throwing eggs at it.</p>
+                   <br>
+                   <p>This game contains a fully functioning 3D Ragdoll system and a complex pooling system.
+                       The architecture follows a state machine based interface which implements game state as well as
+                       Player and Ragdoll states.</p>
+                   <br>
+                   <p>Here is a clip of the local multiplayer shooting with the ragdoll physics in effect. The ability to
+                       throw eggs will be added soon!</p>
+                   <br>
+                   <video controls width="60%">
+                       <source src="instaTorT.mp4" type="video/mp4">
+                       Your browser does not support the video tag.
+                   </video>
+                   <div>
+   
+                   </div>
+               </div>
+           </div>
+       </section>
+   
+       <section id="streetfighter" class="portfolio section-bg">
+           <div class="container">
+   
+               <div class="section-title">
+                   <h2>3D Street Figther (work in progress)</h2>
+                   <p>This is a project I am working on solo. It is inspired by my favorite game as a child : Street
+                       Fighter.</p>
+                   <br>
+                   <p>This game uses enemy and character scripts which both inherit from an interface named IEntity. The
+                       IEntity interface must implement 3 other interfaces named IAnimate, IControllable and IAttack.</p>
+                   <br>
+                   <p>The architectural choice to use an interface of interfaces makes it extremely easy to implement new
+                       features and develop enemy AI and player characters alongside each other with a very similar
+                       structure. This allows for easy bug fixing and scalability.</p>
+                   <br>
+                   <video controls width="80%">
+                       <source src="hacnNew.mp4" type="video/mp4">
+                       Your browser does not support the video tag.
+                   </video>
+                   <div>
+   
+                   </div>
+               </div>
+           </div>
+       </section>
+   
+   </main>
+   <!-- ======= Footer ======= -->
 
 
 <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
@@ -357,7 +517,8 @@
 <script src="assets/vendor/typed.js/typed.umd.js"></script>
 <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
 <script src="assets/vendor/php-email-form/validate.js"></script>
-
+"
+<script src="assets/js/custom.js"></script>
 <!-- Template Main JS File -->
 <script src="assets/js/main.js"></script>
 

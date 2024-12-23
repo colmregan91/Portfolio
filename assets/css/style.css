@@ -315,6 +315,21 @@ section {
   background: #f5f8fd;
 }
 
+.dropdown-content {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  visibility: hidden;
+  transition: max-height 0.5s ease-out, opacity 0.5s ease-out, visibility 0.5s ease-out;
+}
+
+/* When the dropdown is visible */
+.dropdown-content.show {
+  max-height: 500px; /* Adjust based on content */
+  opacity: 1;
+  visibility: visible;
+}
+
 .section-title {
   padding-bottom: 30px;
 }
@@ -324,6 +339,14 @@ section {
   font-weight: bold;
   margin-bottom: 20px;
   padding-bottom: 20px;
+  position: relative;
+  color: #173b6c;
+}
+
+.section-title h1 {
+  font-size: 40px;
+  font-weight: bold;
+
   position: relative;
   color: #173b6c;
 }
